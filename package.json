@@ -1,0 +1,9 @@
+{
+  "name": "Doraemon",
+  "version": "1.0.0",
+  "description": "Doraemon",
+  "main": "index.js",
+  "repository": "https://github.com/mhj6380/Doraemon.git",
+  "author": "mhj6380 <mhj6407@gmail.com>",
+  "license": "MIT"
+}
