@@ -2,18 +2,23 @@
 뭐든지 술술 나오는 도라에몽 주머니입니다
 
 [version 0.1]
+
 Javascript, React + Redux, Express, Socket.io
 
 기반의 보일러플레이트
 
 
 
+
 [전제조건]
+
 node.js:10.16.0 설치
 
 npm 설치
 
 yarn 설치
+
+
 
 
 [구동방법 -> VScode 기준]
