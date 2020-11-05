@@ -26,7 +26,6 @@ const mapDispatchToProps = (dispatch) => {
   subscribeSocket(dispatch);
 
   return {
-    socket,
     handleSampleAction: (data) => {
       dispatch(action.sampleAction(data));
     },

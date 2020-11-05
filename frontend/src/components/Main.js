@@ -1,7 +1,23 @@
 import React from "react";
 
 const Main = (props) => {
-  return <div>Main Page</div>;
+  const { auth, handleSampleAction } = props;
+
+  return (
+    <div>
+      Main Page
+      <br />
+      Sample State : {auth.sample}
+      <br />
+      <button
+        onClick={() => {
+          handleSampleAction("HAKGU");
+        }}
+      >
+        Change State
+      </button>
+    </div>
+  );
 };
 
 export default Main;
