@@ -1,10 +1,11 @@
 import React from "react";
-
+import Canvas from "./canvas";
 const Main = (props) => {
   const { auth, handleSampleAction, handleSampleJoinRoom } = props;
 
   return (
     <div>
+      <Canvas />
       Main Page
       <br />
       Sample State : {auth.sample}
