@@ -27,3 +27,4 @@ backend 실행은 yarn dev
 frontend 실행은 yarn start
 : 3000 포트로 실행되기 때문에 브라우저에서 localhost:3000 으로 접근
 
+ 
