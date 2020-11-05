@@ -9,6 +9,7 @@ const Encrypt = (msg) => {
   }).toString();
 };
 
+// 복호화
 const Decrypt = (base64string) => {
   console.log(process.env.AESKey);
   return CryptoJS.AES.decrypt(base64string, process.env.AESKey).toString(
