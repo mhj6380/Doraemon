@@ -3,4 +3,5 @@
 
 
 [version 0.1]
-Javascript, React + Redux, Express, Socker.io
+Javascript, React + Redux, Express, Socket.io
+기반의 보일러플레이트
