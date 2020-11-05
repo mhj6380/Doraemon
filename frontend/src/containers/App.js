@@ -2,6 +2,7 @@ import { connect } from "react-redux";
 import socketIOClient from "socket.io-client";
 import * as action from "../actions/actions";
 import App from "../components/App";
+import "./App.css";
 
 const socket = socketIOClient("ws://localhost:8080", {
   transports: ["websocket"],
