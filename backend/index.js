@@ -11,5 +11,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // app.use("/users", user);
+app.get("/", (req, res) => {
+  res.send("DORAEMON");
+});
 
 module.exports = app;

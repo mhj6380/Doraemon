@@ -29,6 +29,9 @@ const mapDispatchToProps = (dispatch) => {
     handleSampleAction: (data) => {
       dispatch(action.sampleAction(data));
     },
+    handleSampleJoinRoom: (data) => {
+      socket.emit("joinRoom", data);
+    },
   };
 };
 

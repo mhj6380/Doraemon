@@ -1,7 +1,7 @@
 import React from "react";
 
 const Main = (props) => {
-  const { auth, handleSampleAction } = props;
+  const { auth, handleSampleAction, handleSampleJoinRoom } = props;
 
   return (
     <div>
@@ -15,6 +15,14 @@ const Main = (props) => {
         }}
       >
         Change State
+      </button>
+      <br />
+      <button
+        onClick={() => {
+          handleSampleJoinRoom("HAHAHA");
+        }}
+      >
+        JOIN ROOM
       </button>
     </div>
   );

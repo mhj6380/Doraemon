@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import Main from "./Main";
 
 const App = (props) => {
-  const { auth, handleSampleAction } = props;
+  const { auth, handleSampleAction, handleSampleJoinRoom } = props;
 
   React.useEffect(() => {
     console.log(props);
@@ -20,6 +20,7 @@ const App = (props) => {
               {...routerProps}
               auth={auth}
               handleSampleAction={handleSampleAction}
+              handleSampleJoinRoom={handleSampleJoinRoom}
             />
           )}
         />
